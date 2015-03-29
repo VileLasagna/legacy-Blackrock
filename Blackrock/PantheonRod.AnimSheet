@@ -1,0 +1,69 @@
+
+
+# The loading code for this file works on a sequential basis
+# so don't change the order of the properties or the file won't
+# load correctly.
+
+# Ignored:
+# Lines starting with a '#'
+# Blank Lines
+# All whitespaces
+     
+# Name (and relative path) of the file to be loaded.
+PantheonRod.png
+
+# Size of this sheet in cells (X, then Y)
+6,7
+
+# Number of pixels by which the top left corner of the containing rectangle of this sprite should be adjusted (X, then Y)
+0,0
+
+# Number of animations in this sheet
+10
+
+# Description of the animations on this sheet:
+#1 = Stand Right
+#2 = Stand Left
+#3 = Walk Right
+#4 = Walk Left
+#5 = Attack Left
+#6 = Attack Right
+#7 = Dying Right
+#8 = Dead Right
+#9 = Dying Left
+#10 = Dead Left
+
+
+
+
+
+# Ranges of sprites for the animations in this sheet (startX1, StartY1 /n EndX1, EndY1 /n startX2, StartY2 /n EndX2, EndY2 /n...)
+# indexes start at 1, the referenced sprites ARE played. The ranges are stored in order (the first pair of lines is the first animation)
+
+1,1
+3,1
+4,1
+6,1
+1,2
+6,2
+1,3
+6,3
+1,4
+5,4
+1,5
+5,5
+1,6
+5,6
+6,6
+6,6
+1,7
+6,7
+7,7
+7,7
+
+#Insert ENDANIMS after animation list to set transitory animation hooks.
+#The format is <Animation Number>,<Animation Set when it ends>
+ENDANIMS
+
+7,8
+9,10

@@ -1,0 +1,23 @@
+
+
+# Ignored:
+# Lines starting with a '#'
+# Blank Lines
+# All whitespaces
+
+# The list of Animation Sheet files to be loaded for this sprite
+# Keep in mind that the sheets themselves are unindexed, so order does matter
+# Also, everything is case-sensitive
+# The first sheet will set the sprite base size (and therefore, should have an adjust value of 0,0)
+
+Soma-R.AnimSheet
+Soma-L.AnimSheet
+
+# You probably want to keep a list, in order, of the animations you'll have here
+# Because probably no one is going to want to check each Animation Sheet every
+# bloody5 time. Remember that on the sprite object itself, the animations will
+# be loaded in order, so that if your first sheet has 2 animations and the second
+# has 3, the first animation of your second sheet will be animation 3 of the sprite.
+# The number recorded here should be the one you call for play animation.
+# Indexes start at 1.
+# Make the list a comment or the file won't load.

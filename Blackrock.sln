@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blackrock", "Blackrock\Blackrock.vcproj", "{16DF6F38-539F-4FEA-9445-C3A4884964E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16DF6F38-539F-4FEA-9445-C3A4884964E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16DF6F38-539F-4FEA-9445-C3A4884964E1}.Debug|Win32.Build.0 = Debug|Win32
+		{16DF6F38-539F-4FEA-9445-C3A4884964E1}.Release|Win32.ActiveCfg = Release|Win32
+		{16DF6F38-539F-4FEA-9445-C3A4884964E1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		AMDCaProjectFile = D:\Lasagna Files\Trabalho\VC++\Projects\Blackrock\CodeAnalyst\Blackrock.caw
+	EndGlobalSection
+EndGlobal

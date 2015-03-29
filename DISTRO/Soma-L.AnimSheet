@@ -1,0 +1,282 @@
+
+
+# The loading code for this file works on a sequential basis
+# so don't change the order of the properties or the file won't
+# load correctly.
+
+# Ignored:
+# Lines starting with a '#'
+# Blank Lines
+# All whitespaces
+     
+# Name (and relative path) of the file to be loaded.
+Soma-Left.png
+
+# Size of this sheet in cells (X, then Y)
+16,42
+
+# Number of pixels by which the top left corner of the containing rectangle of this sprite should be adjusted (X, then Y)
+0,0
+
+# Number of animations in this sheet
+60
+
+# Description of the animations on this sheet:
+#1 = Soma Standing
+#2 = Start Walk
+#3 = Walk
+#4 = Stop Walk
+#5 = Back Dash
+#6 = Turn Around?
+#7 = Float
+#8 = Jump
+#9 = Double Jump
+#10 = Fall
+#11 = Crouching
+#12 = Crouched
+#13 = Getting Up
+#14 = Sliding
+#15 = Sliding Downwards (stairs)
+#16 = Dragon Kick
+#17 = Dragon Kick (forward)
+#18 = Sliding Turn (?)
+#19 = Sitting
+#20 = Sit
+#21 = Attack 1 (stab)
+#22 = Attack 1 Jump
+#23 = Attack 1 Crouch
+#24 = Attack 2 (Pierce)
+#25 = Attack 2 Jump
+#26 = Attack 2 Crouch
+#27 = Attack 3 (Slice)
+#28 = Attack 3 Jump
+#29 = Attack 3 Crouch
+#30 = Attack 4 (Smash)
+#31 = Attack 4 Jump
+#32 = Attack 4 Crouch
+#33 = Attack 5 (Iai)
+#34 = Attack 5 Jump
+#35 = Attack 5 Crouch
+#36 = Attack 6(Gun)
+#37 = Attack 6 Jump
+#38 = Attack 6 Crouch
+#39 = Special Stand (D-pad UP)
+#40 = Spell 1
+#41 = Attack 7 (Punch)
+#42 = Attack 8 (Hook)
+#43 = Spell 2 (Grab)
+#44 = Spell 3 (Transform)
+#45 = Spell 4 (Spin)
+#46 = Spell 5 (Summon)
+#47 = Backdash?
+#48 = Dash
+#49 = Bat Transform
+#50 = Bat fly
+#51 = Super Jump
+#52 = Hit Ceiling
+#53 = Hit 1
+#54 = Hit 2
+#55 = Hit 3
+#56 = Hit 4 (Crouch)
+#57 = Status? (Petrify-Decay-Wat?)
+#58 = Death
+#59 = Death Loop
+#60 = Unused + Special
+
+
+
+
+# Ranges of sprites for the animations in this sheet (startX1, StartY1 /n EndX1, EndY1 /n startX2, StartY2 /n EndX2, EndY2 /n...)
+# indexes start at 1, the referenced sprites ARE played. The ranges are stored in order (the first pair of lines is the first animation)
+#1 = Soma Standing
+1,1
+8,1
+#2 = Start Walk
+1,2
+12,2
+#3 = Walk
+1,3
+15,3
+#4 = Stop Walk
+1,4
+6,4
+#5 = Back Dash
+1,5
+9,5
+#6 = Turn Around?
+1,6
+6,6
+#7 = Float
+1,7
+3,7
+#8 = Jump
+5,7
+16,7
+#9 = Double Jump
+1,8
+12,8
+#10 = Fall
+1,9
+8,9
+#11 = Crouching
+1,10
+10,10
+#12 = Crouched
+11,10
+13,10
+#13 = Getting Up
+13,10
+16,10
+#14 = Sliding
+1,11
+7,11
+#15 = Sliding Downwards (stairs)
+9,11
+13,11
+#16 = Dragon Kick
+1,12
+2,12
+#17 = Dragon Kick (forward)
+3,12
+3,12
+#18 = Sliding Turn (?)
+5,12
+14,12
+#19 = Sitting
+1,13
+4,13
+#20 = Sit
+5,13
+7,13
+#21 = Attack 1 (stab)
+1,14
+6,14
+#22 = Attack 1 Jump
+1,15
+6,15
+#23 = Attack 1 Crouch
+1,16
+4,16
+#24 = Attack 2 (Pierce)
+1,17
+8,17
+#25 = Attack 2 Jump
+1,18
+8,18
+#26 = Attack 2 Crouch
+1,19
+8,19
+#27 = Attack 3 (Slice)
+1,20
+10,20
+#28 = Attack 3 Jump
+1,21
+5,21
+#29 = Attack 3 Crouch
+1,22
+9,22
+#30 = Attack 4 (Smash)
+1,23
+13,23
+#31 = Attack 4 Jump
+1,24
+8,24
+#32 = Attack 4 Crouch
+1,25
+14,25
+#33 = Attack 5 (Iai)
+1,26
+6,26
+#34 = Attack 5 Jump
+1,27
+4,27
+#35 = Attack 5 Crouch
+1,28
+5,28
+#36 = Attack 6(Gun)
+1,29
+10,29
+#37 = Attack 6 Jump
+1,30
+4,30
+#38 = Attack 6 Crouch
+1,31
+8,31
+#39 = Special Stand (D-pad UP)
+1,32
+4,32
+#40 = Spell 1
+6,32
+9,32
+#41 = Attack 7 (Punch)
+1,33
+7,33
+#42 = Attack 8 (Hook)
+8,33
+10,33
+#43 = Spell 2 (Grab)
+1,34
+9,34
+#44 = Spell 3 (Transform)
+1,35
+10,35
+#45 = Spell 4 (Spin)
+12,35
+13,35
+#46 = Spell 5 (Summon)
+1,36
+4,36
+#47 = Backdash?
+6,36
+8,36
+#48 = Dash
+10,36
+13,36
+#49 = Bat Transform
+1,37
+2,37
+#50 = Bat fly
+3,37
+16,37
+#51 = Super Jump
+1,38
+2,38
+#52 = Hit Ceiling
+3,38
+7,38
+#53 = Hit 1
+1,39
+2,39
+#54 = Hit 2
+4,39
+5,39
+#55 = Hit 3
+7,39
+8,39
+#56 = Hit 4 (Crouch)
+10,39
+11,39
+#57 = Status? (Petrify-Decay-Wat?)
+13,39
+16,39
+#58 = Death
+1,40
+4,40
+#59 = Death Loop
+5,40
+7,40
+#60 = Unused + Special
+1,41
+7,41
+#Insert ENDANIMS after animation list to set transitory animation hooks.
+#The format is <Animation Number>,<Animation Set when it ends>
+ENDANIMS
+
+2,3
+4,1
+58,59
+19,20
+14,1
+30,1
+11,12
+13,1
